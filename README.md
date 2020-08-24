@@ -1,32 +1,57 @@
-# Blog Site - React
-This repository holds the sample source code for a ReactJS implementation of a blog site powered by Oracle Content and Experience.
+# Oracle APEX andn 
 
-Please see the complete tutorial at:
-[https://www.oracle.com/pls/topic/lookup?ctx=cloud&id=oce-react-blog-sample](https://www.oracle.com/pls/topic/lookup?ctx=cloud&id=oce-react-blog-sample)
+## Lab Introduction
 
-A live version of this project is available at:
-[https://headless.mycontentdemo.com/samples/oce-react-blog-sample](https://headless.mycontentdemo.com/samples/oce-react-blog-sample)
+![Autonomous](./images/adb_oac_banner2.png)
 
+In this hands-on lab, you will get first-hand experience of using Oracle Cloud, **Oracle Autonomous Database (ADB)** and **Oracle APEX **.
 
-## Running the project
-> **Note**  
-The __starter__ folder is for developers following instructions in the tutorial where some code must be modified before it can be run.  The __completed__ folder has code that is ready to run.
+**Oracle Autonomous Database (ADB)** delivers a self-driving, self-securing,self-repairing database service that can instantly scale to meet demands. The service supports two workload types:
 
-To build this project:
-> cd completed  
-> npm install
+-   **Oracle Autonomous Data Warehouse (ADW)** provides an autonomous warehousing environment, associated with fast query performance.
 
-To run using the embedded server code:
-> npm start
+-   **Oracle Autonomous Transaction Processing (ATP)** provides an autonomous online transaction processing and mixed workload environment.
 
-and then open [http://localhost:3000/](http://localhost:3000/)
+For the purpose of this lab, we will use **ADW** so all the steps will be related to this database service.
 
-## Images
-Sample images may be downloaded from [https://www.oracle.com/middleware/technologies/content-experience-downloads.html](https://www.oracle.com/middleware/technologies/content-experience-downloads.html) under a separate license.  These images are provided for reference purposes only and may not hosted or redistributed by you.
+**Oracle Analytics Cloud (OAC)** is a scalable and secure public cloud service that provides a full set of capabilities to explore and perform collaborative analytics for you, your workgroup, and your enterprise.
 
-## Limitations
-This sample will not work on IE11 without adding polyfills for ES6 features.
+With **Oracle Analytics Cloud**, you also get flexible service management capabilities, including fast setup, easy scaling and patching, and automated lifecycle management.
 
-## License
-Copyright (c) 2020 Oracle and/or its affiliates and released under the 
-[Universal Permissive License (UPL)](https://oss.oracle.com/licenses/upl/), Version 1.0
+To run the lab, you will need an Oracle Free Tier Account, with a provisioned ADW instance and a a provisioned OAC instance. This pre-requisite guide will take you step-by-step through how to get the account and set the instance up, to be ready to start the lab.
+
+## Table of Contents
+
+[Get Started - Signing Up for your Oracle Cloud Free Tier Account](/Lab0/README.md)
+- Create Your Free Trial Account
+- Sign in to Your Account
+
+[Lab 100 - Provisioning your Autonomous Database instance](/Lab1/README.md)
+- Create Your Autonomous Database Instance
+- Quick Walk-through
+
+[Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance](/Lab2/README.md)
+- Create Your Analytics Cloud Instance
+- Quick Walk-through
+
+[Lab 300 - Using Oracle Analytics Cloud (OAC)](/Lab3/README.md)
+- Create the connection from Oracle Analytics Cloud to Autonomous Database
+- Prepare the dataset
+- Create Visualizations using your data sets
+
+[Next Steps](/Next/README.md)
+- Upgrade Instances to Paid
+- Want to Learn More?
+- Troubleshooting
+
+## Pre-requisites
+
+There are no pre-requisite steps for this lab. All the necesary steps are documented in the lab. 
+
+## Let's Get Started
+
+At this point, you are ready to start learning!
+
+---
+
+Sign Up for your Oracle Cloud Free Tier to [**Get Started!**](./Lab0/README.md)
