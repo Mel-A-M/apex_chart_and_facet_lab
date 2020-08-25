@@ -1,0 +1,1 @@
+select distinct tenant_name o, tenant_name r from usage.oci_usage order by 1 ;
