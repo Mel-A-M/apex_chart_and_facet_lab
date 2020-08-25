@@ -1,8 +1,8 @@
-# Oracle APEX andn 
+# Oracle APEX Reporting and Faceted Search
 
 ## Lab Introduction
 
-![Autonomous](./images/adb_oac_banner2.png)
+![Autonomous](./images/apex.png)
 
 In this hands-on lab, you will get first-hand experience of using Oracle Cloud, **Oracle Autonomous Database (ADB)** and **Oracle APEX **.
 
@@ -12,13 +12,24 @@ In this hands-on lab, you will get first-hand experience of using Oracle Cloud, 
 
 -   **Oracle Autonomous Transaction Processing (ATP)** provides an autonomous online transaction processing and mixed workload environment.
 
-For the purpose of this lab, we will use **ADW** so all the steps will be related to this database service.
+For the purpose of this lab, we will use **ATP** so all the steps will be related to this database service.
 
-**Oracle Analytics Cloud (OAC)** is a scalable and secure public cloud service that provides a full set of capabilities to explore and perform collaborative analytics for you, your workgroup, and your enterprise.
+In this lab you will enhance an existing application to use the APEX reporting functionality to visually report on the resource usage within an Oracle Cloud Tenancy. You will also create a faceted search report on one of the tables within this application.
 
-With **Oracle Analytics Cloud**, you also get flexible service management capabilities, including fast setup, easy scaling and patching, and automated lifecycle management.
+The \'OCI Usage and Cost Report\' application provides a visual representation of usage in your tenancy. As your tenancy is newly provisioned it will not have any full days of usage recorded. In this lab you will use a sample data set containing multiple days of data, sized to keep the data set within the storage size of an Always Free Autonomous Database. You will load this data using the REST API.
 
-To run the lab, you will need an Oracle Free Tier Account, with a provisioned ADW instance and a a provisioned OAC instance. This pre-requisite guide will take you step-by-step through how to get the account and set the instance up, to be ready to start the lab.
+If in the future you want to generate the input data on your own tenancy please see this project on github, which talks you through the extraction process, and how to collect the data.
+<https://github.com/oracle/oci-python-sdk/blob/master/examples/usage_reports_to_adw/step_by_step_installation.md>
+
+**Objectives**
+
+-   Import data into your database using the REST API
+
+-   Use APEX reporting functionality to enhance visualise the data
+
+-   Add Faceted Search functionality to your application.
+
+To run the lab, you will need an Oracle Free Tier Account, with a provisioned ATP instance  This pre-requisite guide will take you step-by-step through how to get the account and set the instance up, to be ready to start the lab.
 
 ## Table of Contents
 
@@ -46,7 +57,7 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AD
 
 ## Pre-requisites
 
-There are no pre-requisite steps for this lab. All the necesary steps are documented in the lab. 
+There are no pre-requisite steps for this lab. All the necessary steps are documented in the lab. 
 
 ## Let's Get Started
 
