@@ -37,18 +37,34 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AT
 - Create Your Free Trial Account
 - Sign in to Your Account
 
-[Lab 100 - Provisioning your Autonomous Database instance](/Lab1/README.md)
+[Lab 1 - Provisioning your Autonomous Database instance](/Lab1/README.md)
+
 - Create Your Autonomous Database Instance
 - Quick Walk-through
 
-[Lab 200 - Provisioning your Oracle Analytics Cloud (OAC) instance](/Lab2/README.md)
-- Create Your Analytics Cloud Instance
-- Quick Walk-through
+[Lab 2 - Creating your APEX Workspace](/Lab200/README.md)
 
-[Lab 300 - Using Oracle Analytics Cloud (OAC)](/Lab3/README.md)
-- Create the connection from Oracle Analytics Cloud to Autonomous Database
-- Prepare the dataset
-- Create Visualizations using your data sets
+- Create your APEX Workspace
+- Create an end-user account
+
+[Lab 3 - Use REST to load data into your application](/Lab300/README.md)
+
+- Use SQL Workshop to create destination tables
+- Use REST to load data into your application.
+
+[Lab 4 - Add a Chart to your application](/Lab400/README.md)
+
+- Import the Usage application
+- Add a simple chart to the application
+
+[Lab 5 - Enhance your chart](/Lab500/README.md)
+
+- Add a list of values to your chart
+
+[Lab 6 - Use Faceted Search](/Lab600/README.md)
+
+- Create a Faceted Search report on your application.
+- Explore how to change the faceted search
 
 [Next Steps](/Next/README.md)
 - Upgrade Instances to Paid

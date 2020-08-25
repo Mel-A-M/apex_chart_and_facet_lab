@@ -1,5 +1,5 @@
 Prepare the APEX Workspace
---------------------------
+==========================
 
 For this lab you will create a new workspace.
 
@@ -81,3 +81,5 @@ Select **Create User.**
 
 ![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image7.png){width="6.258333333333334in"
 height="5.433333333333334in"}
+
+[**<< Go to Lab 1**](../lab100/README.md) | [Home](../README.md) | [**Go to Lab 3>>>>>**](../Lab300/README.md)
