@@ -81,4 +81,4 @@ At this point, you are ready to start learning!
 
 ---
 
-Sign Up for your Oracle Cloud Free Tier to [**Get Started!**](./Lab0/README.md)
+Sign Up for your Oracle Cloud Free Tier to [**Get Started!**](./Lab000/README.md)

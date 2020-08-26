@@ -2,16 +2,12 @@
 
 ### Create the destination tables
 
-### 
+Download the table creation  SQL script from ![here](../src/l3-mam_table_defs.sql)
 
-As part of the workshop preparation you downloaded a zip file containing
-the lab script files. If you have not done so already, unzip this file
-so you can access the files it contains.
-
-At the top of the Workspace home page, click the **SQL Workshop** menu
+At the top of the Usage Workspace home page, click the **SQL Workshop** menu
 and select **SQL Scripts**.
 
-Use the **Choose File** button to select \'lab600_table_defs.sql\' from
+Use the **Choose File** button to select \'l3-mam_table_defs.sql' from
 the lab scripts zip file.
 
 ![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image8.png){width="6.266666666666667in"

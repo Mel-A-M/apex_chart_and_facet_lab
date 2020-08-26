@@ -34,7 +34,7 @@ In this lab we will show creating the database in the **root compartment**, whic
 
 > Compartments are a logical separation of resources,  where you can attach roles and permissions. This allows you to create your team structure in compartments, so you can control who can manage and access resources. Compartments are not necessary at this stage.
 
-And click in **Create Autonomous Database** button.
+And click the **Create Autonomous Database** button.
 
 ![ATPs](./../images/atps.png)
 
@@ -48,7 +48,7 @@ You can select **Always Free** configuration to start enjoying your Free Autonom
 
 ![Always Free Logo](../images/always_free_logo.png)
 
-CPU and Storage are good with default values, the same for the database version.
+Leave CPU and Storage  with default values, the  same for the database version.
 
 Switch off Auto scaling (if your configuration is **Always Free** it will not be available to you). Autoscaling is a nice feature as the ATP database will scale if the workload is increasing and scale down automatically if the workload reduces. Zero downtime during the process. It's cool, isn't it?
 
@@ -73,7 +73,7 @@ This page is known as the Autonomous Database Details Page. It provides you with
 
 Note: You will have  the **Always Free**  logo next to the name of your database:![Always Free Logo](../images/always_free_logo.png) if you used the Always Free database type.
 
-## It works
+## It works!
 
 You  have just created an Autonomous Database with the latest features of Oracle Databases.
 

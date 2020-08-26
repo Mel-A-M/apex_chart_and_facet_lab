@@ -3,37 +3,49 @@ Prepare the APEX Workspace
 
 For this lab you will create a new workspace.
 
-Login to APEX via the administration console as the ADMIN user
+From your **Autonomous Database** details page select the **Tools** tab. Select **Open APEX**.
 
-Select **Manage Workspaces** and then **Create Workspace**
+![](../images/open_apex_dbdetails.png)
 
-![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image1.png){width="4.45in" height="2.408333333333333in"}
+This will open a new browser tab for Application Express Administration.
+
+Login as the Admin user, with the Admin password you specified at Autonomous Database creation time. Select **Sign In to Administration**.
+
+![](../images/apex_login_admin.png)
+
+
+
+On the Welcome to *"Oracle Application Express*" page, select either **Create Workspace** in the center of the page or use the **Manage Workspaces** drop down menu and select **Create Workspace**
+
+
+
+![](../images/l200_create_workspace.png)
 
 Use the following information to complete the form:
 
 > **Database User:** USAGE
 >
-> **Password**: APEXwelcome-1234
+> **Password**: Enter a memorable password for your workspace that meets the requirements for Autonomous Database. 
 >
 > **Workspace Name:** USAGE
 
 Then select **Create Workspace.**
 
-![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image2.png){width="6.25in" height="4.666666666666667in"}
+![](../images/l200_create_workspace_1.png)
+
+You will receive a *Workspace created* message.
+
+![](../images/l200_create_workspace_2.png)
 
 Logout as the Admin user by selecting the icon in the top right hand
 side of the screen and selecting Sign Out.
 
-![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image3.png){width="3.691666666666667in"
-height="3.4166666666666665in"}
+![](../images/l200_create_workspace_3.png)
 
 Preparing the Environment
 -------------------------
 
-Open the APEX login screen. If you do not have a direct link or an open
-browser window to this page you can access it by returning to the
-Service Console of your Autonomous Database, select Development, and
-then Apex.
+
 
 Login to APEX using:
 
@@ -41,27 +53,29 @@ Login to APEX using:
 >
 > **User name**: USAGE
 >
-> **Password:** APEXWelcome-1234
->
-> ![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image4.png){width="4.408333333333333in"
-> height="5.458333333333333in"}
+> **Password:** Your memorable password
 
-### 
+
+
+Select **Sign In**
+
+![](../images/l200_login_usage.png)
+
+
 
 ### Create an End User Account
 
-Your application end user will login with their own account, so they do
-not have direct access to the underlying database or APEX application.
+Your application end user will login with their own account, so they do not have direct access to the underlying database or APEX application.
 
-On the top right hand of the page there is an Administration button.
+On the top right hand of the page there is an Administration drop down menu  with the icon of a person and a wrench.
+
 Select this and choose **Manage Users and Groups.**
 
-![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image5.png){width="2.975in" height="3.683333333333333in"}
+![](../images/l200_create_user.png)
 
 Select **Create User.**
 
-![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image6.png){width="6.233333333333333in"
-height="1.9083333333333334in"}
+![](../images/l200_create_user_1.png)
 
 Complete the form with the following information:
 
@@ -69,17 +83,24 @@ Complete the form with the following information:
 >
 > **Email:** \<your email address\>
 >
-> **User is a workspace administrator:** Set to No
+> **User is a workspace administrator:** Set to off
 >
-> **User is a developer:** Set to No
+> **User is a developer:** Set to off
 >
-> **Password:** APEXwelcome-1234
+> **Password:**  A password that meets the requirements for Autonomous Database.
 >
-> **Require Change of Password on First Use:** No
+> **Require Change of Password on First Use:** Set to off
 
 Select **Create User.**
 
-![](C:/Users/MEASHWOR/Documents/ADB-APEX/lab600/media/image7.png){width="6.258333333333334in"
-height="5.433333333333334in"}
+![](../images/l200_create_user_2.png)
+
+## It works!
+
+You have created your APEX workspace, and also created an end user account for the application.
+
+## Congratulations, you are ready for the next Lab!
+
+
 
 [**<< Go to Lab 1**](../lab100/README.md) | [Home](../README.md) | [**Go to Lab 3>>>>>**](../Lab300/README.md)
