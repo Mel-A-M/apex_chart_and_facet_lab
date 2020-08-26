@@ -1,11 +1,9 @@
-
-
 insert into "USAGE"."OCI_COST_TAG_KEYS"
 (TENANT_NAME,TAG_KEY)
 select col001, col002
 from table
 ( apex_data_parser.parse
-(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/melanieosc/APEX_Dataset/master/oci_cost_tag_keys.csv', 'GET')
+(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/Mel-A-M/apex_faceted_search_lab/main/data/oci_cost_tag_keys.csv', 'GET')
 , p_file_name=> 'oci_cost_tag_keys.csv', p_skip_rows=> 1 )
 );
 
@@ -14,7 +12,7 @@ insert into "USAGE"."OCI_USAGE_TAG_KEYS"
 select col001, col002
 from table
 ( apex_data_parser.parse
-(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/melanieosc/APEX_Dataset/master/oci_usage_tag_keys.csv', 'GET')
+(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/Mel-A-M/apex_faceted_search_lab/main/data/oci_usage_tag_keys.csv', 'GET')
 , p_file_name=> 'oci_usage_tag_keys.csv', p_skip_rows=> 1 )
 );
 
@@ -24,7 +22,7 @@ insert into "USAGE"."OCI_USAGE_STATS"
 select col001, col002, to_date(col003,'DD-MON-RR HH24:MI:SS'),col004,to_date(col005,'DD-MON-YYYY HH24:MI:SS'),col006
 from table
 ( apex_data_parser.parse
-(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/melanieosc/APEX_Dataset/master/oci_usage_stats.csv', 'GET')
+(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/Mel-A-M/apex_faceted_search_lab/main/data/oci_usage_stats.csv', 'GET')
 , p_file_name=> 'oci_usage_stats.csv', p_skip_rows=> 1 )
 );
 
@@ -33,7 +31,7 @@ insert into "USAGE"."OCI_COST_STATS"
 select col001, col002, to_date(col003,'DD-MON-YYYY HH24:MI:SS'),col004,col005,to_date(col006,'DD-MON-YYYY HH24:MI:SS'),col007,col008,col009
 from table
 ( apex_data_parser.parse
-(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/melanieosc/APEX_Dataset/master/oci_cost_stats.csv', 'GET')
+(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/Mel-A-M/apex_faceted_search_lab/main/data/oci_cost_stats.csv', 'GET')
 , p_file_name=> 'oci_cost_stats.csv', p_skip_rows=> 1 )
 );
 
@@ -43,7 +41,7 @@ insert into "USAGE"."OCI_COST_REFERENCE"
 select col001, col002, col003
 from table
 ( apex_data_parser.parse
-(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/melanieosc/APEX_Dataset/master/oci_cost_reference.csv', 'GET')
+(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/Mel-A-M/apex_faceted_search_lab/main/data/oci_cost_reference.csv', 'GET')
 , p_file_name=> 'oci_cost_reference.csv', p_skip_rows=> 1 )
 );
 
@@ -86,7 +84,7 @@ col016,col017,col018,col019,col020,col021,
 col022,col023,col024,col025,col026
 from table
 ( apex_data_parser.parse
-(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/melanieosc/APEX_Dataset/master/oci_cost.csv', 'GET')
+(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/Mel-A-M/apex_faceted_search_lab/main/data/oci_cost.csv', 'GET')
 , p_file_name=> 'oci_cost.csv', p_skip_rows=> 1 )
 );
 
@@ -121,7 +119,7 @@ col010,col011,col012,col013,col014,col015,
 col016,col017,col018
 from table
 ( apex_data_parser.parse
-(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/melanieosc/APEX_Dataset/master/oci_usage.csv', 'GET')
+(  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/Mel-A-M/apex_faceted_search_lab/main/data/oci_usage.csv', 'GET')
 , p_file_name=> 'oci_usage.csv', p_skip_rows=> 1 )
 );
 

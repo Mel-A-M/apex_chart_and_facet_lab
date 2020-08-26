@@ -103,4 +103,5 @@ You have created your APEX workspace, and also created an end user account for t
 
 
 
-[**<< Go to Lab 1**](../lab100/README.md) | [Home](../README.md) | [**Go to Lab 3>>>>>**](../Lab300/README.md)
+[**<< Go to Lab 1**](../lab100/README.md) | [Home](../README.md) | [**Go to Lab 3>>>>>**](../lab300/README.md)
+

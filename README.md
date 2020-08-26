@@ -33,41 +33,41 @@ To run the lab, you will need an Oracle Free Tier Account, with a provisioned AT
 
 ## Table of Contents
 
-[Get Started - Signing Up for your Oracle Cloud Free Tier Account](./Lab000/README.md)
+[Get Started - Signing Up for your Oracle Cloud Free Tier Account](./lab000/README.md)
 
 - Create Your Free Trial Account
 - Sign in to Your Account
 
-[Lab 1 - Provisioning your Autonomous Database instance](./Lab100/README.md)
+[Lab 1 - Provisioning your Autonomous Database instance](./lab100/README.md)
 
 - Create Your Autonomous Database Instance
 - Quick Walk-through
 
-[Lab 2 - Creating your APEX Workspace](./Lab200/README.md)
+[Lab 2 - Creating your APEX Workspace](./lab200/README.md)
 
 - Create your APEX Workspace
 - Create an end-user account
 
-[Lab 3 - Use REST to load data into your application](./Lab300/README.md)
+[Lab 3 - Use REST to load data into your application](./lab300/README.md)
 
 - Use SQL Workshop to create destination tables
 - Use REST to load data into your application.
 
-[Lab 4 - Add a Chart to your application](./Lab400/README.md)
+[Lab 4 - Add a Chart to your application](./lab400/README.md)
 
 - Import the Usage application
 - Add a simple chart to the application
 
-[Lab 5 - Enhance your chart](./Lab500/README.md)
+[Lab 5 - Enhance your chart](./lab500/README.md)
 
 - Add a list of values to your chart
 
-[Lab 6 - Use Faceted Search](./Lab600/README.md)
+[Lab 6 - Use Faceted Search](./lab600/README.md)
 
 - Create a Faceted Search report on your application.
 - Explore how to change the faceted search
 
-[Next Steps](./Next/README.md)
+[Next Steps](./next/README.md)
 
 - Upgrade Instances to Paid
 - Want to Learn More?
