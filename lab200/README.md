@@ -23,11 +23,13 @@ On the Welcome to *"Oracle Application Express*" page, select either **Create Wo
 
 Use the following information to complete the form:
 
-> **Database User:** USAGE
->
-> **Password**: Enter a memorable password for your workspace that meets the requirements for Autonomous Database. 
->
-> **Workspace Name:** USAGE
+​	**Database User:** USAGE
+
+​	**Password**: Enter a memorable password for your workspace that meets the requirements for Autonomous Database. 
+
+​	**Workspace Name:** USAGE
+
+
 
 Then select **Create Workspace.**
 
@@ -49,11 +51,11 @@ Preparing the Environment
 
 Login to APEX using:
 
-> **Workspace name**: USAGE
->
-> **User name**: USAGE
->
-> **Password:** Your memorable password
+​	**Workspace name**: USAGE
+
+​	**User name**: USAGE
+
+​	**Password:** Your memorable password
 
 
 
@@ -79,19 +81,21 @@ Select **Create User.**
 
 Complete the form with the following information:
 
-> **Username:** usageaudit
->
-> **Email:** \<your email address\>
->
-> **User is a workspace administrator:** Set to off
->
-> **User is a developer:** Set to off
->
-> **Password:**  A password that meets the requirements for Autonomous Database.
->
-> **Require Change of Password on First Use:** Set to off
+​	**Username:** usageaudit
+
+​	**Email:** \<your email address\>
+
+​	**User is a workspace administrator:** Set to off
+
+​	**User is a developer:** Set to off
+
+​	**Password:**  A password that meets the requirements for Autonomous Database.
+
+​	**Require Change of Password on First Use:** Set to off
 
 Select **Create User.**
+
+
 
 ![](../images/l200_create_user_2.png)
 
@@ -105,3 +109,4 @@ You have created your APEX workspace, and also created an end user account for t
 
 [**<< Go to Lab 1**](../lab100/README.md) | [Home](../README.md) | [**Go to Lab 3>>>>>**](../lab300/README.md)
 
+![](../images/osc_logo.png)

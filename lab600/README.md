@@ -200,3 +200,5 @@ If you want to learn more about Oracle APEX and Oracle Cloud please continue ont
 ----------------------
 
 [**<< Go to Lab 5**](../lab500/README.md) | [Home](../README.md) | [**Go to Next Steps >>**](../next/README.md)
+
+![](../images/osc_logo.png)

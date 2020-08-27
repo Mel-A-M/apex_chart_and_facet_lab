@@ -80,17 +80,19 @@ On the right hand side change the properties of your new Chart as follows:
 
 ***Identification***
 
-> **Title** : Data Uploaded
+​	**Title** : Data Uploaded
 
 ![](../images/l400_edit_ds_page_3.png)
 
-*Appearance*
+***Appearance***
 
-> **Template:** Standard
->
-> **Template Options:** Click on this and it will pop up a dialog.
->
-> **Accent:** Accent 15
+​	**Template:** Standard
+
+​	**Template Options:** Click on this and it will pop up a dialog.
+
+​	**Accent:** Accent 15
+
+
 
 ![](../images/l400_edit_ds_page_9.png)
 
@@ -108,7 +110,7 @@ Set the chart type to Bar.
 
 *Chart*
 
-> **Type:** Bar
+​	**Type:** Bar
 
 
 
@@ -118,15 +120,15 @@ In the *Property* pane on the right-hand side change the following:
 
 *Identification*
 
-> **Name:** OCI Usage Stats Rows
+​	**Name:** OCI Usage Stats Rows
 
 *Source*
 
-> **Location:** Local Database
->
-> **Type:** SQL Query
->
-> **SQL Query :** 
+​	**Location:** Local Database
+
+​	**Type:** SQL Query
+
+​	**SQL Query :** 
 
 ```sql
 select trunc(us.USAGE_INTERVAL_START) FILE_DATE,
@@ -137,11 +139,11 @@ trunc(us.USAGE_INTERVAL_START) order by file_date;
 
 
 
-> *Column Mapping*
->
-> **Label:** FILE_DATE
->
-> **Value:** US_NUM_ROWS
+*Column Mapping*
+
+​	**Label:** FILE_DATE
+
+​	**Value:** US_NUM_ROWS
 
 
 
@@ -153,7 +155,9 @@ In the *Property* pane on the right-hand side change the following:
 
 *Identification*
 
-> **Title:** Date Captured
+​	**Title:** Date Captured
+
+
 
 ![](../images/l400_edit_ds_page_7.png)
 
@@ -163,11 +167,11 @@ In the *Property* pane on the right-hand side change the following:
 
 *Identification*
 
-> **Title:** Number of Rows.
+​	**Title:** Number of Rows.
 
 *Value*
 
-> **Format:** Decimal
+​	**Format:** Decimal
 
 ![](../images/l400_edit_ds_page_8.png)
 
@@ -193,3 +197,4 @@ You have used the built in charting features of APEX to enhance the application.
 
 --------------------------------------------
 
+![](../images/osc_logo.png)

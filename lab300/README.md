@@ -1,6 +1,6 @@
 # Use REST to load data into your Application
 
-### Create the destination tables
+## Create the destination tables
 
 Download the table creation SQL script l3_mam_table_defs.sql from [**here**](../src/l3_mam_table_defs.sql)
 
@@ -75,14 +75,16 @@ The *apex_web_service.make_rest_request\_b* is a PL/SQL function which invokes a
 
 Here is a sample usage of the package, you will run a SQL script containing similar statements to populate your database.
 
-`insert into "USAGE"."OCI_COST_TAG_KEYS"
+```sql
+insert into "USAGE"."OCI_COST_TAG_KEYS"
 (TENANT_NAME,TAG_KEY)
 select col001, col002
 from table
 ( apex_data_parser.parse
 (  p_content=> apex_web_service.make_rest_request_b('https://raw.githubusercontent.com/Mel-A-M/apex_faceted_search_lab/main/data/oci_cost_tag_keys.csv', 'GET')
 , p_file_name=> 'oci_cost_tag_keys.csv', p_skip_rows=> 1 )
-);`
+);
+```
 
 This uses a REST request to GET the table data in csv format from the github website, parses the csv using apex_data_parser and then insert the data into your destination table.
 
@@ -127,3 +129,5 @@ You have used the capabilities within APEX to load data from an external web pag
 ----------------------
 
 [**<< Go to Lab 2**](../lab200/README.md) | [Home](../README.md) | [**Go to Lab 4 >>**](../lab400/README.md)
+
+![](../images/osc_logo.png)

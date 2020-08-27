@@ -173,3 +173,5 @@ You have enhanced your simple chart to use a list of values to change the data s
 ----------------------
 
 [**<< Go to Lab 4**](../lab400/README.md) | [Home](../README.md) | [**Go to Lab 6 >>**](../lab600/README.md)
+
+![](../images/osc_logo.png)

@@ -83,3 +83,5 @@ You  have just created an Autonomous Database with the latest features of Oracle
 
 [**<< Go to Sign Up**](../lab000/README.md) | [Home](../README.md) | [**Go to Lab 2 >>>>>**](../lab200/README.md)
 
+![](../images/osc_logo.png)
+
